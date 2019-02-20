@@ -1,11 +1,11 @@
 package polimorfism;
 
-import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 
 public class Person {
 	
-	private List <Address> addresses = new ArrayList<Address>();
+	private List <Address> addresses = new LinkedList<Address>();
 	private int age;
 	private String name;
 	
